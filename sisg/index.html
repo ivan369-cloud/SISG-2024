@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal - Hospital App</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .header {
+            width: 100%;
+            padding: 20px;
+            background-color: #fff;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            width: 150px;
+        }
+
+        .submenu {
+            position: fixed;
+            top: 80px;
+            right: 20px;
+            width: 200px;
+            background-color: #1a73e8;
+            color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .submenu ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .submenu ul li {
+            margin-bottom: 15px;
+        }
+
+        .submenu ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .submenu ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            width: 60%;
+            margin-top: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            flex-grow: 1;
+        }
+
+        .content h2 {
+            color: #1a73e8;
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            color: #333;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="img/logo.png" alt="Logo del Hospital"> 
+    </div>
+
+    <div class="submenu">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Pacientes</a></li>
+            <li><a href="#">Citas</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="login.html">Cerrar Sesión</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h2>Bienvenido a la Aplicación del Hospital</h2>
+        <p>
+            Este es el espacio donde podrás ver las últimas noticias, actualizaciones y publicaciones relacionadas con nuestro hospital. Aquí puedes agregar artículos, anuncios o cualquier otro contenido relevante.
+        </p>
+        <p>
+            Navega a través de las diferentes opciones del submenú para acceder a las distintas secciones de la aplicación.
+        </p>
+    </div>
+</body>
+</html>
